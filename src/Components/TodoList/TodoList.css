@@ -1,0 +1,10 @@
+.todo-list {
+    width: 100%;
+    flex-grow: 1;
+    overflow: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}

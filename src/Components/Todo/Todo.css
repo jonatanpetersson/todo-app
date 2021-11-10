@@ -1,0 +1,65 @@
+.todo-list__todo {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 568px;
+    min-height: 84px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 0.5rem;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    hyphens: auto;
+}
+
+@media (min-width: 600px) {
+    .todo-list__todo {
+        margin-bottom: 0;
+        margin-top: 1rem;
+    }
+}
+
+.todo-list__todo:hover {
+    box-shadow: 0px 1px 5px gainsboro;
+    cursor: pointer;
+}
+
+.todo-list__todo--done {
+    background: repeating-linear-gradient( -45deg, transparent, transparent 5px, gainsboro 5px, gainsboro 6px);
+    border: 1px solid gainsboro;
+    border-radius: 0.5rem;
+    color: gray;
+}
+
+.todo-list__todo-title {
+    margin-bottom: 0.5rem;
+    
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.todo-list__todo-button {
+    min-width: 3rem;
+    height: 3rem;
+
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+
+    font-size: 1.5rem;
+}
+
+.todo-list__todo-button:hover {
+    box-shadow: 0px 1px 5px gainsboro;
+    cursor: pointer;
+}
+
+.todo-list__todo-button--hidden {
+    display: none
+}
