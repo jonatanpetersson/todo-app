@@ -1,4 +1,3 @@
 # todo-app
-
-Simple to do-app created using React. Made during the `</salt>` fall -21 bootcamp.  
+To do-app created using React.  
 Check it out on https://jp-todo.netlify.app/
